@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to left, #ff0000, #00ff00);
+    margin: 0;
+    padding: 0;
+}
+
+#miFormulario {
+    width: 400px;
+    margin: 50px auto;
+    background: linear-gradient(to left, #ccff00, #00ff00);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que el padding no aumente el tamaño del input */
+}
+/*color al boton*/
+input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+.alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+}
